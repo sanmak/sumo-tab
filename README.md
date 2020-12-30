@@ -1,7 +1,7 @@
 # sumo-tab
 ## Electron app for package managers
 
-![sumo-tab](../sumo-tab/src/assets/images/sumo-tab.png)
+![sumo-tab](https://github.com/sanmak/sumo-tab/blob/main/src/assets/images/sumo-tab.png)
 
 <br />
 <p align="center">
@@ -83,7 +83,7 @@ Install this package and follow examples given below. We have `examples` folder 
 - To run this package, run: `yarn start`
 - To run installer, download from make folder "https://github.com/sanmak/sumo-tab/out/make"
 
-![snap-1](../sumo-tab/src/assets/images/application-snap-1.png)
+![snap-1](https://github.com/sanmak/sumo-tab/blob/main/src/assets/images/application-snap-1.png)
 
 
 <!-- ROADMAP -->
