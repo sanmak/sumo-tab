@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SUMO TAB</title>
+    <link rel="stylesheet" href="./assets/css.css" />
+  </head>
+
+  <body style="margin: 0">
+    <div class="etabs-tabgroup">
+      <div class="etabs-tabs"></div>
+      <div class="etabs-buttons"></div>
+    </div>
+    <div class="etabs-views"></div>
+
+    <script>
+      const TabGroup = require("./assets/js.js");
+
+      let tabGroup = new TabGroup({});
+
+      tabGroup.addTabs([
+        {
+          title: "GITHUB",
+          src: "https://github.com/search?q=",
+          visible: true,
+          active: true,
+        },
+        {
+          title: "NPM JS",
+          src: "https://www.npmjs.com/",
+        },
+        {
+          title: "NPM TRENDS",
+          src: "https://www.npmtrends.com/",
+        },
+        {
+          title: "PYPI",
+          src: "https://pypi.org/",
+        },
+        {
+          title: "RUBY GEMS",
+          src: "https://rubygems.org/",
+        },
+        {
+          title: "PACKAGIST",
+          src: "https://packagist.org/",
+        },
+        {
+          title: "DOCKER HUB",
+          src: "https://hub.docker.com/search?q=&type=image",
+        },
+        {
+          title: "HOME BREW",
+          src: "https://brew.sh/",
+        },
+      ]);
+    </script>
+  </body>
+</html>
